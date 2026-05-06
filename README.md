@@ -207,8 +207,9 @@ integration-dynamics-neural-networks/
 ├── requirements.txt
 │
 ├── code/
-│   ├── integration_proxy_tc.py
-│   └── plot_results.py
+│   ├── integration_dynamics_experiment_(MLP).py
+│   ├── rrn_integration_experiment_(RNN).py
+│   └── plot_results_2.py
 │
 ├── results/
 │   ├── results.csv
