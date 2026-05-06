@@ -10,7 +10,7 @@
 ## An Empirical Study of Integration Dynamics in Feed-forward and Recurrent Neural Networks
 
 <p align="center">
-  <img src="figures/Figure_1.png" width="700">
+  <img width="3000" height="1800" alt="Figure_1" src="https://github.com/user-attachments/assets/224d98b0-2c1e-4858-94ac-1e912bdc7d7c" />
 </p>
 
 ## Overview
@@ -237,7 +237,7 @@ integration-dynamics-neural-networks/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/integration-dynamics-neural-networks.git
+git clone https://github.com/SAYED-ZALABIYA/integration-dynamics-neural-networks.git
 cd integration-dynamics-neural-networks
 ```
 
