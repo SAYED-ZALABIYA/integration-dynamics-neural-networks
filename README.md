@@ -304,7 +304,9 @@ python code/integration_proxy_tc.py --visualize --viz_layers --viz_summary
 # Main Figures
 
 ## Figure 1 — Accuracy vs Total Correlation
-
+<div align="center">
+<img width="3000" height="1800" alt="Figure_1" src="https://github.com/user-attachments/assets/7268482e-0abf-4580-85e9-318f1f73319b" />
+</div>
 Demonstrates the inverse relationship between optimization and integration.
 
 ## Figure 2 — Layer-wise Decorrelation
