@@ -213,6 +213,8 @@ integration-dynamics-neural-networks/
 ├── results/
 │   ├── results.csv
 │   └── results_enhanced.csv
+│   ├── rrn_iit_results.csv
+│   
 │
 ├── figures/
 │   ├── Figure_1.png
