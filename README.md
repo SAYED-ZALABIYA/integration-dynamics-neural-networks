@@ -2,8 +2,7 @@
 <img width="600" height="289" alt="Basmallah-4-White-940x453" src="https://github.com/user-attachments/assets/d3937692-adaa-4eb2-9998-c55c384c9a81" />
 </div>
 
-
-
+---
 
 # Task Optimization Drives Statistical Decorrelation
 
