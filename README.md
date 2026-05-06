@@ -128,14 +128,8 @@ These tasks were selected because they:
 
 # Information Integration Metric
 
-<img width="763" height="229" alt="image" src="https://github.com/user-attachments/assets/a0ab4133-9e33-48fe-8da6-1c289f8176db" />
+<img width="720" height="386" alt="99999999999999999" src="https://github.com/user-attachments/assets/669c91f4-1eed-4f1c-a9f2-8da2b2cb29e6" />
 
-
-Higher TC values indicate:
-
-* stronger statistical dependency
-* greater redundancy
-* higher integration among hidden units
 
 ---
 
