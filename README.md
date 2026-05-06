@@ -128,14 +128,8 @@ These tasks were selected because they:
 
 # Information Integration Metric
 
-We estimate integration using Gaussian Total Correlation:
+<img width="763" height="229" alt="image" src="https://github.com/user-attachments/assets/a0ab4133-9e33-48fe-8da6-1c289f8176db" />
 
-TC\left(X\right)\ =\ \frac{1}{2}\left(\ \log \ \ \left|D\right|\ -\ \log \ \ \left|\sum _{\ }^{\ }\right|\ \right)
-
-Where:
-
-* (\Sigma) is the covariance matrix
-* (D) is the diagonal covariance matrix
 
 Higher TC values indicate:
 
