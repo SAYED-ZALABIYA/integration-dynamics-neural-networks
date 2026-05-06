@@ -130,9 +130,7 @@ These tasks were selected because they:
 
 We estimate integration using Gaussian Total Correlation:
 
-[
-TC(X) = \frac{1}{2}\left( \log |D| - \log |\Sigma| \right)
-]
+TC\left(X\right)\ =\ \frac{1}{2}\left(\ \log \ \ \left|D\right|\ -\ \log \ \ \left|\sum _{\ }^{\ }\right|\ \right)
 
 Where:
 
