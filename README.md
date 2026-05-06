@@ -412,5 +412,7 @@ This project is released under the MIT License.
 <img width="736" height="840" alt="WhatsApp Image 2026-04-22 at 23 49 24" src="https://github.com/user-attachments/assets/00eb0078-9039-409e-bd16-c4a8e6cd314c" />
 </div>
 
-
-## لا تنسونا من صالح دعائكم 
+<div align="center">
+## لاتنسونا من صالح دعائكم 
+</div>
+ 
