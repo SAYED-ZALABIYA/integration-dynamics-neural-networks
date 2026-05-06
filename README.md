@@ -3,6 +3,407 @@
 </div>
 
 
+
+
+# Task Optimization Drives Statistical Decorrelation
+
+## An Empirical Study of Integration Dynamics in Feed-forward and Recurrent Neural Networks
+
+<p align="center">
+  <img src="figures/Figure_1.png" width="700">
+</p>
+
+## Overview
+
+This repository contains the official implementation and experimental results for the research paper:
+
+> **Task Optimization Drives Statistical Decorrelation: An Empirical Study of Integration Dynamics in Feed-forward and Recurrent Neural Networks**
+
+The project investigates the relationship between:
+
+* **Task Optimization** (classification accuracy)
+* **Statistical Information Integration**
+* **Representation Decorrelation**
+* **Neural Specialization during Learning**
+
+using Feed-forward Neural Networks (MLPs) and Recurrent Neural Networks (RNNs).
+
+---
+
+# Motivation
+
+Integrated Information Theory (IIT) proposes that consciousness is related to a system's capacity for information integration (Φ).
+
+Modern Deep Learning systems, however, are optimized primarily for task performance and generalization. Representation learning theories such as the Information Bottleneck principle suggest that successful optimization progressively compresses and decorrelates internal representations.
+
+This project explores the following central question:
+
+> **Does increasing task intelligence necessarily preserve information integration?**
+
+Our empirical results suggest a strong inverse relationship:
+
+* Higher accuracy → lower redundancy
+* Higher specialization → lower integration
+* Optimization progressively decorrelates hidden representations
+
+---
+
+# Core Hypothesis
+
+We hypothesize that:
+
+> Standard gradient-based optimization drives neural networks toward increasingly decorrelated internal representations, reducing statistical integration as performance improves.
+
+This creates a potential trade-off between:
+
+| Intelligence                | Integration                   |
+| --------------------------- | ----------------------------- |
+| Efficient task solving      | Holistic information coupling |
+| Specialized representations | Redundant integrated states   |
+| Error minimization          | Statistical dependency        |
+
+---
+
+# Main Contributions
+
+## 1. Empirical Analysis of Integration Dynamics
+
+We analyze how Total Correlation (TC) evolves during neural network training.
+
+## 2. MLP vs RNN Comparison
+
+We compare feed-forward and recurrent architectures under identical optimization conditions.
+
+## 3. Statistical Proxy for Integration
+
+Instead of computing the computationally intractable causal Φ from IIT, we use:
+
+* Gaussian Total Correlation (TC)
+
+as a tractable proxy for multivariate statistical dependency.
+
+## 4. Evidence of Optimization-Driven Decorrelation
+
+Our experiments consistently demonstrate:
+
+* increasing accuracy
+* decreasing TC
+* progressive specialization
+* collapse of redundancy during learning
+
+---
+
+# Experimental Setup
+
+## Architectures
+
+### Feed-forward Network (MLP)
+
+* Sparse Linear Layers
+* Tanh activations
+* Optional residual connections
+
+### Recurrent Neural Network (RNN)
+
+* Temporal feedback loops
+* Hidden-state recurrence
+* Multi-step temporal integration
+
+---
+
+# Datasets
+
+Experiments were performed on:
+
+* XOR
+* Two Moons
+* Spiral Dataset
+
+These tasks were selected because they:
+
+* require non-linear decision boundaries
+* expose internal representation dynamics
+* allow controlled analysis of integration collapse
+
+---
+
+# Information Integration Metric
+
+We estimate integration using Gaussian Total Correlation:
+
+[
+TC(X) = \frac{1}{2}\left( \log |D| - \log |\Sigma| \right)
+]
+
+Where:
+
+* (\Sigma) is the covariance matrix
+* (D) is the diagonal covariance matrix
+
+Higher TC values indicate:
+
+* stronger statistical dependency
+* greater redundancy
+* higher integration among hidden units
+
+---
+
+# Key Findings
+
+## Feed-forward Networks (MLP)
+
+| Phase          | Accuracy | TC         |
+| -------------- | -------- | ---------- |
+| Early Training | ~55%     | High (~35) |
+| Final Training | ~88%     | Low (~16)  |
+
+Observation:
+
+> Optimization progressively reduces information redundancy.
+
+---
+
+## Recurrent Networks (RNN)
+
+| Phase          | Accuracy | TC              |
+| -------------- | -------- | --------------- |
+| Early Training | ~69%     | Very High (~38) |
+| Final Training | ~93%     | Reduced (~20)   |
+
+Observation:
+
+> Recurrent feedback preserves integration longer, but optimization still drives eventual decorrelation.
+
+---
+
+# Interpretation
+
+The experiments suggest the emergence of a fundamental phenomenon:
+
+## Specialization vs Integration
+
+During training:
+
+* neurons become increasingly specialized
+* redundant representations collapse
+* hidden units decorrelate
+* integration decreases
+
+This implies that:
+
+> high task performance does not necessarily imply high integration.
+
+Under IIT-inspired interpretations:
+
+> current neural architectures may optimize for intelligence while simultaneously suppressing integrated states.
+
+---
+
+# Repository Structure
+
+```text
+integration-dynamics-neural-networks/
+│
+├── README.md
+├── requirements.txt
+│
+├── code/
+│   ├── integration_proxy_tc.py
+│   └── plot_results.py
+│
+├── results/
+│   ├── results.csv
+│   └── results_enhanced.csv
+│
+├── figures/
+│   ├── Figure_1.png
+│   ├── Figure_2.png
+│   ├── Figure_3.png
+│   ├── Figure_4.png
+│   ├── Figure_5.png
+│   └── Figure_6.png
+│
+├── paper/
+│   └── integration_dynamics_iit.pdf
+│
+└── supplementary/
+    └── iit_binary_causal_demo.py
+```
+
+---
+
+# Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/integration-dynamics-neural-networks.git
+cd integration-dynamics-neural-networks
+```
+
+---
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# Requirements
+
+Main dependencies:
+
+* Python 3.10+
+* PyTorch
+* NumPy
+* Matplotlib
+* Pandas
+* Seaborn
+
+Optional:
+
+* PyPhi (for toy Φ demonstrations)
+
+---
+
+# Running Experiments
+
+## Basic XOR Experiment
+
+```bash
+python code/integration_proxy_tc.py --dataset xor
+```
+
+---
+
+## Two Moons Experiment
+
+```bash
+python code/integration_proxy_tc.py --dataset moons
+```
+
+---
+
+## Full Grid Search
+
+```bash
+python code/integration_proxy_tc.py --grid 1
+```
+
+---
+
+## Generate Visualizations
+
+```bash
+python code/integration_proxy_tc.py --visualize --viz_layers --viz_summary
+```
+
+---
+
+# Main Figures
+
+## Figure 1 — Accuracy vs Total Correlation
+
+Demonstrates the inverse relationship between optimization and integration.
+
+## Figure 2 — Layer-wise Decorrelation
+
+Shows progressive specialization across hidden layers.
+
+## Figure 3 — MLP vs RNN Integration Dynamics
+
+Compares integration decay across architectures.
+
+## Figure 4 — Temporal Integration in RNNs
+
+Illustrates persistence of integration through recurrent feedback.
+
+## Figure 5 — Accuracy vs TC Correlation
+
+Reveals strong negative correlation between performance and integration.
+
+## Figure 6 — Summary of Integration Collapse
+
+Highlights global reduction in TC between initialization and convergence.
+
+---
+
+# Important Scientific Clarification
+
+This project does **NOT** claim:
+
+* measurement of true consciousness
+* computation of exact IIT Φ for large neural systems
+* proof of conscious behavior in artificial neural networks
+
+Instead, this work investigates:
+
+> statistical integration dynamics during optimization
+
+using Total Correlation (TC) as a tractable approximation of multivariate dependency.
+
+---
+
+# Future Directions
+
+Potential extensions include:
+
+* Transformer integration analysis
+* Attention-based integration mechanisms
+* Causal Φ approximations
+* Integration-preserving regularization
+* Scaling to large language models
+* Effective Information (EI) interventions
+
+---
+
+# Citation
+
+If you use this repository or build upon this work, please cite:
+
+```bibtex
+@article{mohammed2026integration,
+  title={Task Optimization Drives Statistical Decorrelation: An Empirical Study of Integration Dynamics in Feed-forward and Recurrent Neural Networks},
+  author={Mohammed, ElSayed A.},
+  year={2026},
+  journal={arXiv preprint}
+}
+```
+
+---
+
+# Author
+
+**ElSayed A. Mohammed**
+Independent Researcher
+Egypt
+
+---
+
+# License
+
+This project is released under the MIT License.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Exploring Integration in Artificial Neural Systems  
 ### Statistical Proxies vs Causal IIT Measures
 
