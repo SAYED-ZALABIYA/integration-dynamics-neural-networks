@@ -309,24 +309,44 @@ python code/integration_proxy_tc.py --visualize --viz_layers --viz_summary
 </div>
 Demonstrates the inverse relationship between optimization and integration.
 
-## Figure 2 — Layer-wise Decorrelation
+---
 
+## Figure 2 — Layer-wise Decorrelation
+<div align="center">
+<img width="3000" height="1800" alt="Figure_2" src="https://github.com/user-attachments/assets/c68f1ec2-2897-4744-a4c2-ecfc3b50b8f3" />
+</div>
 Shows progressive specialization across hidden layers.
 
-## Figure 3 — MLP vs RNN Integration Dynamics
+---
 
+## Figure 3 — MLP vs RNN Integration Dynamics
+<div align="center">
+<img width="3000" height="1800" alt="Figure_3" src="https://github.com/user-attachments/assets/7c7e0d55-c0b1-4dea-b9dd-6c4cb54fd7d1" />
+</div>
 Compares integration decay across architectures.
 
-## Figure 4 — Temporal Integration in RNNs
+---
 
+## Figure 4 — Temporal Integration in RNNs
+<div align="center">
+<img width="3000" height="1800" alt="Figure_4" src="https://github.com/user-attachments/assets/f94fb605-1a36-4e8a-8dcb-d85163e27556" />
+</div>
 Illustrates persistence of integration through recurrent feedback.
 
-## Figure 5 — Accuracy vs TC Correlation
+---
 
+## Figure 5 — Accuracy vs TC Correlation
+<div align="center">
+<img width="3000" height="1800" alt="Figure_5" src="https://github.com/user-attachments/assets/2e6a6e10-865b-402f-a1d0-503320509f9b" />
+</div>
 Reveals strong negative correlation between performance and integration.
 
-## Figure 6 — Summary of Integration Collapse
+---
 
+## Figure 6 — Summary of Integration Collapse
+<div align="center">
+<img width="3000" height="1800" alt="Figure_6" src="https://github.com/user-attachments/assets/61f06800-bdc6-4309-9f75-1e2936c510dd" />
+</div>
 Highlights global reduction in TC between initialization and convergence.
 
 ---
