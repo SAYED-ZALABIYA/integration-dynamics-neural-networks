@@ -375,21 +375,6 @@ Potential extensions include:
 
 ---
 
-# Citation
-
-If you use this repository or build upon this work, please cite:
-
-```bibtex
-@article{mohammed2026integration,
-  title={Task Optimization Drives Statistical Decorrelation: An Empirical Study of Integration Dynamics in Feed-forward and Recurrent Neural Networks},
-  author={Mohammed, ElSayed A.},
-  year={2026},
-  journal={arXiv preprint}
-}
-```
-
----
-
 # Author
 
 **ElSayed A. Mohammed**
