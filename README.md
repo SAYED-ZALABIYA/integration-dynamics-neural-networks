@@ -1,5 +1,5 @@
 <div align="center">
-<img width="600" height="289" alt="Basmallah-4-White-940x453" src="https://github.com/user-attachments/assets/d3937692-adaa-4eb2-9998-c55c384c9a81" />
+<img width="600" height="289" alt="Basmallah-4-White-940x453" src="https://github.com/user-attachments/assets/5fdd5768-b3f0-4ffe-85f3-585f052c896a" />
 </div>
 
 ---
